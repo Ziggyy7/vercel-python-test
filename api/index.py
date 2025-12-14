@@ -1,2 +1,5 @@
 def handler(request):
-    return "ok"
+    return {
+        "statusCode": 200,
+        "body": "ok"
+    }
